@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    text-decoration: none;
+}
