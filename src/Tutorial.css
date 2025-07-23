@@ -1,0 +1,15 @@
+.tutorial ul{
+ display: flex;
+ justify-content: center;
+ list-style-type: none;
+
+}
+
+.tutorial ul li{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+}
