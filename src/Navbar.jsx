@@ -1,10 +1,11 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router'
+import { Link, NavLink, Outlet } from 'react-router'
 import './Navbar.css'
 
 export const Navbar = () => {
   return (
-    <div className='header'>
+    <div>
+      <div className='header'>
        <div><Link to="/" className='link'><h2>Logo</h2></Link></div>
        <div>
         <ul>
@@ -13,6 +14,8 @@ export const Navbar = () => {
           <li><NavLink to="/tutorial" className='link'>Tutorials</NavLink></li>
         </ul>
        </div>
+    </div>
+    <Outlet/>
     </div>
   )
 }
