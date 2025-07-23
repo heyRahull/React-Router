@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link, NavLink } from 'react-router'
 import './Navbar.css'
 
 export const Navbar = () => {
@@ -8,9 +8,9 @@ export const Navbar = () => {
        <div><Link to="/" className='link'><h2>Logo</h2></Link></div>
        <div>
         <ul>
-          <li><Link to="/about" className='link'>About</Link></li>
-          <li><Link to="login" className='link'>Login</Link></li>
-          <li><Link to="/tutorial" className='link'>Tutorials</Link></li>
+          <li><NavLink to="/about" className='link'>About</NavLink></li>
+          <li><NavLink to="login" className='link'>Login</NavLink></li>
+          <li><NavLink to="/tutorial" className='link'>Tutorials</NavLink></li>
         </ul>
        </div>
     </div>

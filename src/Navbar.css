@@ -21,3 +21,8 @@ body{
 .link{
     text-decoration: none;
 }
+
+.active{
+    font-weight: bold;
+    color: red;
+}

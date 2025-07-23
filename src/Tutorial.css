@@ -13,3 +13,13 @@
 .link{
     text-decoration: none;
 }
+
+/* .active{
+    font-weight: bold;
+    color: red;
+} */
+
+.custom-active {
+    font-weight: bold;
+    color: green;
+}
