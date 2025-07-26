@@ -33,8 +33,9 @@ function App() {
             <Route path="javascript" element={<JSTut />} />
             <Route path="node" element={<NodeTut />} />
           </Route>
-          <Route path="/products" element={<Products/>} />
-          <Route path="/products/:id" element={<ProductDetails/>}/>{/* Dynamic Routing */}
+          <Route path="/products/list?" element={<Products/>} />
+          {/* <Route path="/products/list" element={<Products/>} /> */}
+          <Route path="/products/:id/:name?" element={<ProductDetails/>}/>{/* Dynamic Routing */}
           
         </Route>
 

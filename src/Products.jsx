@@ -16,7 +16,7 @@ const Products = () => {
         <h1>Products List Page</h1>
         {
             products.map((product)=><div key={product.id}>
-                <h3><Link to={"/products/"+product.id} style={{textDecoration:'none'}}>{product.name}</Link></h3>
+                <h3><Link to={"/products/"+product.id+"/"+product.name} style={{textDecoration:'none'}}>{product.name}</Link></h3>
             </div>)
         }
     </div>

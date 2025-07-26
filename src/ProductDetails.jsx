@@ -9,7 +9,7 @@ const ProductDetails = () => {
   return (
     <div style={{textAlign:'center'}}>
         <h1>Product Details Page</h1>
-        <h3>Prodcut id is : {paramId.id}</h3>
+        <h3>Prodcut is {paramId.name} and its id is : {paramId.id}</h3>
     </div>
   )
 }

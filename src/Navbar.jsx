@@ -13,6 +13,7 @@ export const Navbar = () => {
           <li><NavLink to="/user/login" className='link'>Login</NavLink></li>
           <li><NavLink to="/tutorial" className='link'>Tutorials</NavLink></li>
           <li><NavLink to="/products" className='link'>Products</NavLink></li>
+          <li><NavLink to="/products/list" className='link'>List</NavLink></li>
         </ul>
        </div>
     </div>
